@@ -1,0 +1,68 @@
+[
+    {
+        "model": "shoppinglist.ShoppingList",
+        "pk":1,
+        "fields": {
+            "name": "Supermarket"
+        }
+    },
+    {
+        "model": "shoppinglist.ShoppingList",
+        "pk":2,
+        "fields": {
+            "name": "Bakery"
+        }
+    },
+    {
+        "model": "shoppinglist.ShoppingList",
+        "pk":3,
+        "fields": {
+            "name": "Butchery"
+        }
+    },
+    {
+        "model": "shoppinglist.ShoppingListItem",
+        "pk":1,
+        "fields": {
+            "name": "Toilet paper",
+            "status": "unchecked",
+            "shopping_list": 1
+        }
+    },
+    {
+        "model": "shoppinglist.ShoppingListItem",
+        "pk":2,
+        "fields": {
+            "name": "Beer",
+            "status": "unchecked",
+            "shopping_list": 1
+        }
+    },
+    {
+        "model": "shoppinglist.ShoppingListItem",
+        "pk":3,
+        "fields": {
+            "name": "Bread",
+            "status": "unchecked",
+            "shopping_list": 2
+        }
+    },
+    {
+        "model": "shoppinglist.ShoppingListItem",
+        "pk":4,
+        "fields": {
+            "name": "Baguette",
+            "status": "unchecked",
+            "shopping_list": 2
+        }
+    },
+    {
+        "model": "shoppinglist.ShoppingListItem",
+        "pk":5,
+        "fields": {
+            "name": "Sausage",
+            "status": "unchecked",
+            "shopping_list": 3
+        }
+    }
+]
